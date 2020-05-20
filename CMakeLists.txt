@@ -26,6 +26,9 @@ set(IO2D_WITHOUT_TESTS 1)
 add_subdirectory(thirdparty/pugixml)
 add_subdirectory(thirdparty/googletest)
 
+# Set include directories
+include_directories(include)
+
 # Find all executables
 file(GLOB project_SRCS src/*.cpp src/*.h)
 
